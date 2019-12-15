@@ -51,13 +51,13 @@ public class Testn11 {
 	    @When("^Enter username$")
 	    public void enterUserName() 
 	    {
-	    	driver.findElement(By.id("email")).sendKeys("yusuftopal00@hotmail.com");
+	    	driver.findElement(By.id("email")).sendKeys("yourEmailAddress@email.com");
 	    }
 	    
 	    @And("^Enter password$")
 	    public void enterPassword()
 	    {	    		    	
-	    	driver.findElement(By.id("password")).sendKeys("fineartz123");	      
+	    	driver.findElement(By.id("password")).sendKeys("yourPassword");	      
 	    }
 	    
 	    @And("^Log in click$")
